@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap');
+
+
+* {
+  font-family: 'Manrope', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#home-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(224, 232, 238);
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 460px;
+  height: 665px;
+  background-color: white;
+  border-radius: 16px;
+
+}
+
+.img-girl {
+  width: 460px;
+  height: 232px;
+  border-radius: 16px 16px 0px 0px;
+}
+
+.order-text {
+  width: 349px;
+  text-align: center;
+  margin: 32px auto;
+}
+
+.order-text .h1 {
+  color: #151827;
+  font-size: 32px;
+}
+
+.order-text>p {
+  color: #85859B;
+  margin-top: 16px;
+  line-height: 25.6px;
+}
+
+.line {
+  border-left: 1px solid #CFD1DD;
+  height: 51px;
+}
+
+.music-note {
+  width: 24px;
+  height: 24px;
+  margin: 29px 32px 30px 32px;
+}
+
+.annual-plan {
+  display: flex;
+  width: 428px;
+  height: 83px;
+  flex-direction: row;
+  align-items: center;
+  margin: 9px 16px 32px 16px;
+  background: #F8F9FE;
+  border-radius: 16px;
+}
+
+.price-plan {
+  margin: 17px 112px 17px 32px;
+}
+
+.price-plan h3 {
+  line-height: 24.59px;
+  font-size: 18px;
+}
+
+.price-plan p {
+  font-size: 14px;
+  color: grey;
+}
+
+.main-btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.main-btn> button {
+  width: 428px;
+  height: 56px;
+  border: none;background: #680262;
+  border-radius: 16px;
+  color: white;
+  font-size: 16px;
+}
+
+.cancel {
+  text-align: center;
+  margin: 20px auto;
+  color: #151827;
+  line-height: 25.6px;
+  text-decoration: none;
+  border-bottom: 1px solid #151827;
+  font-weight: 800;
+}
+
+.main-btn> button:hover {
+  transform: scale(1.02);
+  cursor: pointer;
+}
